@@ -1,0 +1,47 @@
+Perl for Guardian
+What's New in This Version
+
+This file describes the changes made to the Perl for Guardian port since
+it was last uploaded (approximately April, 1998).
+
+1.   We changed the brain-dead way library files are handled.
+
+     Instead of having to create a DEFINE for each file in the library, we
+     use SEARCH defines with sub-volumes.  Thus, it is possible to make
+     "PM" files available by simply adding them to the appropriate sub-volume.
+
+     See the LIBRARIES section in the readme file for details.
+
+2.   We've added an extension to support generating MD5 signatures.  See
+     item 10 of "Stuff that Appears to Work" in the README file.
+
+3.   We've modified the MAKE macro (in PERLMNT) to look for NMC and, if
+     present, will use it instead of C.  We've seen approximately a 15%
+     (plus or minus) improvement between accelerated CISC and native.
+
+     The binary distribution is the accerlated CISC version.
+
+     See the section NMC NOTES in the readme file for details.
+
+4.   Created a library function called "backtick" which emulates (to some
+     extent) the `cmd` functionality.  See "stuff that works", item 11 of
+     "Stuff that Appears to Work" in the README file for details.
+
+5.   We used PAK to generate a self-extracting archive instead of the
+     archive/de-archive software included with the last distribution.
+
+     Because the distribution uses a self-extracting archive, you won't
+     need UNPAK.  However, if you want to use them for other things,
+     PAK/UNPAK is available from the ITUG library.
+
+6.   In order to support the "BACKTICK" we modified the underlying open
+     routines to enable receipt of "system messages" on $RECEIVE.  The
+     underlying read routines have been modified to throw system messages
+     away.
+
+     **NOTE:  Even though we are accepting system messages on $RECEIVE,
+     PERL scripts will never see them.
+
+     See PERLSRC.GUARDC for details.
+
+

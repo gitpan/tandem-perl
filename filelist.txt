@@ -1,0 +1,577 @@
+PAK - File compression program (Kari Kujansuu/Tandem Finland 1996)
+Compression routines: 'zlib' by Jean-loup Gailly and Mark Adler.
+(ftp://ftp.uu.net/pub/archiving/zip/zlib/)
+
+File Mode BACKUP Program - T9074D32 (30NOV98) (ADL)
+Copyright Tandem Computers Incorporated 1981-1999
+Drives: ($Y812)
+System: \PHAMIS  Operating System: D30  Tape Version: 3
+Backup options:  NO AUDITED, BLOCKSIZE 8, NO IGNORE, NO OPEN, PARTONLY OFF,
+                INDEXES IMPLICIT
+*WARNING-7033*  This tape can only be restored with TNS/II RESTORE (B41, C00 or
+                later).
+*WARNING-7147*  Files created and stored via OSS will not be backed up.
+Backup time: 11Dec99 11:58                                            Page: 1
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+
+$CUST62.PERL
+ BTPROMPT       101           182 14Oct98 15:10 210,119 NNNN
+ HOWTOEXT       101          6818 13Nov98 12:26 210,119 NNNN
+ INDEX          101           356 13Nov98 12:30 210,119 NNNN
+ LICENSE        101         26580  6Mar98 15:55 210,119 NNNN
+ PERL           101          1914 25Aug99 14:14 210,119 NNNN
+ PERLDIR        101         28496 14Sep98 21:49 210,119 NNNN
+ PERLINIT       101           900 25Aug99 14:15 210,119 NNNN
+ PERLKILL       101           274 25Aug99 14:14 210,119 NNNN
+ PERLLOCL       101          3422 11Jun99 16:27 210,119 NNNN
+ PERLMAC        101         16360 28Aug99 15:17 210,119 NNNN
+ PERLNUL        101            66  6Mar98 15:56 210,119 NNNN
+ PERLO          100       2619392 28Aug99 15:11 210,119 NNNN
+ PERLPFIX       101          2048 28Aug99 15:17 210,119 NNNN
+ PERLTMP        101            88  6Mar98 15:56 210,119 NNNN
+ PERLUX         100       4966572 28Aug99 14:59 210,119 NNNN
+ PLINSTAL       101          3200 14Sep98 21:49 210,119 NNNN
+ README         101         73304 11Dec99 11:56 210,119 NNNN
+ WHATSNEW       101          1940 11Dec99 11:56 210,119 NNNN
+
+$CUST62.PERLEXT
+ DIGEST         101          5856 13Nov98 12:21 210,119 NNNN
+ HMAC           101          2960 13Nov98 12:21 210,119 NNNN
+ HMACMD5        101          1774 13Nov98 12:21 210,119 NNNN
+ HMACSHA        101          1608 13Nov98 12:21 210,119 NNNN
+ INDEX          101          2264 13Nov98 12:19 210,119 NNNN
+ MD5            101          7518 13Nov98 12:21 210,119 NNNN
+ SHA1           101          1536 13Nov98 12:21 210,119 NNNN
+
+$CUST62.PERLEXTT
+ DIGEST         101           416 13Nov98 12:20 210,119 NNNN
+ INDEX          101          2294 13Nov98 12:17 210,119 NNNN
+ MD5T2          101           788 13Nov98 12:20 210,119 NNNN
+ MD5T3          101           820 16Nov98 14:45 210,119 NNNN
+
+$CUST62.PERLL01
+ AAREADME       101           106  6Mar98 15:56 210,119 NNNN
+ ABBREV         101           736  6Mar98 15:56 210,119 NNNN
+ ANYDBM         101          2652  6Mar98 15:56 210,119 NNNN
+ ASSERT         101          1544  6Mar98 15:56 210,119 NNNN
+ AUTOLOAD       101          9146  6Mar98 15:56 210,119 NNNN
+ AUTOSPLI       101         13282  6Mar98 15:56 210,119 NNNN
+ AUTOUSE        101          5064  6Mar98 15:56 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 2
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ BENCHMAR       101         11566  6Mar98 15:56 210,119 NNNN
+ BIGFLOAT       101          7350  6Mar98 15:56 210,119 NNNN
+ BIGINT         101          8794  6Mar98 15:56 210,119 NNNN
+ BIGRAT         101          4680  6Mar98 15:56 210,119 NNNN
+ BLIB           101          1532  6Mar98 15:56 210,119 NNNN
+ CACHEOUT       101          1072  6Mar98 15:56 210,119 NNNN
+ CARP           101          4022  6Mar98 15:56 210,119 NNNN
+ CGI            101        174374  6Mar98 15:56 210,119 NNNN
+ COMPLETE       101          2472  6Mar98 15:56 210,119 NNNN
+ CONFIG         101          8374 26Aug99 15:15 210,119 NNNN
+ CONSTANT       101          6052  6Mar98 15:56 210,119 NNNN
+ CPAN           101        110294  6Mar98 15:56 210,119 NNNN
+ CTIME          101          1906  6Mar98 15:56 210,119 NNNN
+ CWD            101         10356  6Mar98 15:56 210,119 NNNN
+ DIAGNOST       101         15534  6Mar98 15:56 210,119 NNNN
+ DIRHANDL       101          1634  6Mar98 15:56 210,119 NNNN
+ DOTSH          101          2204  6Mar98 15:56 210,119 NNNN
+ DUMPVAR        101         12306  6Mar98 15:56 210,119 NNNN
+ ENGLISH        101          3886  6Mar98 15:56 210,119 NNNN
+ ENV            101          1962  6Mar98 15:56 210,119 NNNN
+ EXCEPTIO       101          1780  6Mar98 15:56 210,119 NNNN
+ EXPORTER       101         14036  6Mar98 15:56 210,119 NNNN
+ FASTCWD        101           964  6Mar98 15:56 210,119 NNNN
+ FILECACH       101          2010  6Mar98 15:56 210,119 NNNN
+ FILEHAND       101          7392  6Mar98 15:56 210,119 NNNN
+ FIND           101          1442  6Mar98 15:56 210,119 NNNN
+ FINDBIN        101          5104  6Mar98 15:56 210,119 NNNN
+ FINDDEPT       101          1386  6Mar98 15:56 210,119 NNNN
+ FLUSH          101           508  6Mar98 15:56 210,119 NNNN
+ FTP            101         27862  6Mar98 15:56 210,119 NNNN
+ GETCWD         101          1380  6Mar98 15:56 210,119 NNNN
+ GETOPT         101          1228  6Mar98 15:56 210,119 NNNN
+ GETOPTS        101          1108  6Mar98 15:56 210,119 NNNN
+ HOSTNAME       101           620  6Mar98 15:56 210,119 NNNN
+ IMPORTEN       101           500  6Mar98 15:56 210,119 NNNN
+ INDEX          101           956  6Mar98 15:56 210,119 NNNN
+ INTEGER        101           786  6Mar98 15:56 210,119 NNNN
+ LESS           101           502  6Mar98 15:56 210,119 NNNN
+ LIB            101          4282  6Mar98 15:56 210,119 NNNN
+ LOCALE         101           844  6Mar98 15:56 210,119 NNNN
+ LOOK           101          1214  6Mar98 15:56 210,119 NNNN
+ NEWGETOP       101          2338  6Mar98 15:56 210,119 NNNN
+ OPEN2          101           302  6Mar98 15:56 210,119 NNNN
+ OPEN3          101           302  6Mar98 15:56 210,119 NNNN
+ OVERLOAD       101         21452  6Mar98 15:56 210,119 NNNN
+ PERL5DB        101         68968  6Mar98 15:56 210,119 NNNN
+ PWD            101          1402  6Mar98 15:56 210,119 NNNN
+ SELECTSA       101          1282  6Mar98 15:56 210,119 NNNN
+ SELFLOAD       101         12668  6Mar98 15:56 210,119 NNNN
+ SHELL          101          2618  6Mar98 15:56 210,119 NNNN
+ SHELLWOR       101          1078  6Mar98 15:56 210,119 NNNN
+ SIGTRAP        101          8734  6Mar98 15:56 210,119 NNNN
+ STAT           101           878  6Mar98 15:56 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 3
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ STRICT         101          2592  6Mar98 15:56 210,119 NNNN
+ SUBS           101          1030  6Mar98 15:56 210,119 NNNN
+ SYMBOL         101          3246  6Mar98 15:56 210,119 NNNN
+ SYSLOG         101          5468  6Mar98 15:56 210,119 NNNN
+ TAINTED        101           264  6Mar98 15:56 210,119 NNNN
+ TERMCAP        101          4342  6Mar98 15:56 210,119 NNNN
+ TIMELOCA       101           852  6Mar98 15:56 210,119 NNNN
+ UNIVERSA       101          2376  6Mar98 15:56 210,119 NNNN
+ VALIDATE       101          4282  6Mar98 15:56 210,119 NNNN
+ VARS           101          1862  6Mar98 15:56 210,119 NNNN
+
+$CUST62.PERLL02
+ AAREADME       101           108  6Mar98 15:56 210,119 NNNN
+ BASENAME       101          9060  6Mar98 15:56 210,119 NNNN
+ CHECKTRE       101          5768  6Mar98 15:57 210,119 NNNN
+ COMPARE        101          3620  6Mar98 15:57 210,119 NNNN
+ COPY           101         11824  6Mar98 15:57 210,119 NNNN
+ FIND           101          7332  6Mar98 15:57 210,119 NNNN
+ FINDX          101          7332  6Mar98 15:57 210,119 NNNN
+ INDEX          101           216  6Mar98 15:57 210,119 NNNN
+ PATH           101          7090  6Mar98 15:57 210,119 NNNN
+ STAT           101          3272  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL03
+ AAREADME       101            90  6Mar98 15:57 210,119 NNNN
+ ABBREV         101          1914  6Mar98 15:57 210,119 NNNN
+ INDEX          101           182  6Mar98 15:57 210,119 NNNN
+ PARSEWOR       101          5346  6Mar98 15:57 210,119 NNNN
+ SOUNDEX        101          4876  6Mar98 15:57 210,119 NNNN
+ TABS           101          2278  6Mar98 15:57 210,119 NNNN
+ WRAP           101          3806  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL04
+ AAREADME       101            90  6Mar98 15:57 210,119 NNNN
+ BIGFLOAT       101          9598  6Mar98 15:57 210,119 NNNN
+ BIGINT         101         11738  6Mar98 15:57 210,119 NNNN
+ COMPLEX        101         38694  6Mar98 15:57 210,119 NNNN
+ INDEX          101           172  6Mar98 15:57 210,119 NNNN
+ TRIG           101          6542  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL05
+ AAREADME       101            92  6Mar98 15:57 210,119 NNNN
+ INDEX          101           142  6Mar98 15:57 210,119 NNNN
+ LONG           101         39868  6Mar98 15:57 210,119 NNNN
+ STD            101          4388  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL06
+ AAREADME       101            88  6Mar98 15:57 210,119 NNNN
+ HOSTNAME       101          2882  6Mar98 15:57 210,119 NNNN
+ INDEX          101           150  6Mar98 15:57 210,119 NNNN
+ SYSLOG         101          6108  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL07
+ AAREADME       101            92  6Mar98 15:57 210,119 NNNN
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 4
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ DICT           101          1788  6Mar98 15:57 210,119 NNNN
+ INDEX          101           128  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL08
+ AAREADME       101            90  6Mar98 15:57 210,119 NNNN
+ GMTIME         101          2916  6Mar98 15:57 210,119 NNNN
+ INDEX          101           166  6Mar98 15:57 210,119 NNNN
+ LOCAL          101          4240  6Mar98 15:57 210,119 NNNN
+ LOCALT         101          2782  6Mar98 15:57 210,119 NNNN
+ TM             101           868  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLL09
+ AAREADME       101            88  6Mar98 15:57 210,119 NNNN
+ HASH           101          4642  6Mar98 15:57 210,119 NNNN
+ INDEX          101           172  6Mar98 15:57 210,119 NNNN
+ REFHASH        101          2454  6Mar98 15:57 210,119 NNNN
+ SCALAR         101          3912  6Mar98 15:57 210,119 NNNN
+ SUBSTRHA       101          5170  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLLIB
+ BACKTICK       101          2262 18Dec98 14:01 210,119 NNNN
+ CPL            101          4774  3Nov98 12:10 210,119 NNNN
+ FREDP          101            70  9Apr99  8:46 210,119 NNNN
+ INDEX          101            90  3Aug98 14:09 210,119 NNNN
+ PERLREQ        101          1878  5Aug98 13:51 210,119 NNNN
+
+$CUST62.PERLMNT
+ INDEX          101           208  6Mar98 15:57 210,119 NNNN
+ MAKE           101         10898 29Jan99 12:16 210,119 NNNN
+ MKPERL         101          6154 25Aug99 17:33 210,119 NNNN
+ OMKPERL        101            90  6Mar98 15:57 210,119 NNNN
+ PERLBIND       101          1846 29Jan99 12:17 210,119 NNNN
+ PERLCOMP       101          1448 29Jan99 12:17 210,119 NNNN
+ PERLSRC        101          4714  6Mar98 15:57 210,119 NNNN
+ UPDSRC         101          1658  6Mar98 15:57 210,119 NNNN
+
+$CUST62.PERLOBJ
+ AVO            100        291046 28Aug99 14:40 210,119 NNNN
+ DEBO           100        252700 28Aug99 14:40 210,119 NNNN
+ DOIOO          100        321556 28Aug99 14:41 210,119 NNNN
+ DOOPO          100        283584 28Aug99 14:42 210,119 NNNN
+ DUMPO          100        274856 28Aug99 14:42 210,119 NNNN
+ GLOBALSO       100        418260 28Aug99 14:56 210,119 NNNN
+ GUARDO         100        132402 28Aug99 14:38 210,119 NNNN
+ GUARDXSO       100        273092 28Aug99 14:55 210,119 NNNN
+ GVO            100        354564 28Aug99 14:43 210,119 NNNN
+ HVO            100        358002 28Aug99 14:43 210,119 NNNN
+ MALLOCO        100        276998 28Aug99 14:44 210,119 NNNN
+ MD5XSO         100        314814 28Aug99 14:56 210,119 NNNN
+ MGO            100        425182 28Aug99 14:44 210,119 NNNN
+ MINIPERO       100        252478 28Aug99 14:39 210,119 NNNN
+ OPO            100        716666 28Aug99 14:45 210,119 NNNN
+ PERLIOO        100        357048 28Aug99 14:46 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 5
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ PERLO          100        431632 28Aug99 14:39 210,119 NNNN
+ PERLYO         100        309030 28Aug99 14:46 210,119 NNNN
+ PPCTLO         100        507344 28Aug99 14:48 210,119 NNNN
+ PPHOTO         100        438390 28Aug99 14:49 210,119 NNNN
+ PPO            100        751050 28Aug99 14:47 210,119 NNNN
+ PPSYSO         100        781334 28Aug99 14:49 210,119 NNNN
+ REGCOMPO       100        331050 28Aug99 14:57 210,119 NNNN
+ REGEXECO       100        294076 28Aug99 14:50 210,119 NNNN
+ RUNO           100        257672 28Aug99 14:51 210,119 NNNN
+ SCOPEO         100        347130 28Aug99 14:51 210,119 NNNN
+ SVO            100        639308 28Aug99 14:52 210,119 NNNN
+ TAINTO         100        248600 28Aug99 14:52 210,119 NNNN
+ TOKEO          100        550522 28Aug99 14:53 210,119 NNNN
+ UNIVERSO       100        268730 28Aug99 14:55 210,119 NNNN
+ UTILO          100        400372 28Aug99 14:54 210,119 NNNN
+
+$CUST62.PERLPL
+ COMPDDLP       101          4812  6Mar98 15:58 210,119 NNNN
+ COMPDDLX       101          3422  6Mar98 15:58 210,119 NNNN
+ HL7CNFG        101         56844  6Mar98 15:58 210,119 NNNN
+ HL7PPP         101          3944  6Mar98 15:58 210,119 NNNN
+ HL7RAWP        101          1160  6Mar98 15:58 210,119 NNNN
+ HL7UNPPP       101         10818  6Mar98 15:58 210,119 NNNN
+ INDEX          101           212  6Mar98 15:58 210,119 NNNN
+ README         101          1974  6Mar98 15:58 210,119 NNNN
+
+$CUST62.PERLSRC
+ AVC            101         10656  6Mar98 15:58 210,119 NNNN
+ AVH            101          1872  6Mar98 15:58 210,119 NNNN
+ CFLAGSSH       101          3576  6Mar98 15:58 210,119 NNNN
+ COMPASYM       101           956  6Mar98 15:58 210,119 NNNN
+ CONFIGH        101         66792 31Dec98 10:39 210,119 NNNN
+ COPH           101          9164  6Mar98 15:58 210,119 NNNN
+ CVH            101          3158  6Mar98 15:58 210,119 NNNN
+ DEBC           101          3622  6Mar98 15:58 210,119 NNNN
+ DOIOC          101         39128 14Sep98 21:50 210,119 NNNN
+ DOOPC          101         11890  6Mar98 15:58 210,119 NNNN
+ DUMPC          101         11404  6Mar98 15:58 210,119 NNNN
+ EMBEDH         101         64116  6Mar98 15:58 210,119 NNNN
+ EMBEDPL        101          3132  6Mar98 15:58 210,119 NNNN
+ EXTERNH        101          1674  6Mar98 15:58 210,119 NNNN
+ FORMH          101           722  6Mar98 15:58 210,119 NNNN
+ GLOBALSC       101           122  6Mar98 15:58 210,119 NNNN
+ GLOBASYM       101         17586  6Mar98 15:58 210,119 NNNN
+ GUARDC         101         44500 29Jan99 12:18 210,119 NNNN
+ GUARDDH        101           772 14Sep98 21:50 210,119 NNNN
+ GUARDFH        101          1906 29Jan99 12:18 210,119 NNNN
+ GUARDH         101          8774 26Aug99 15:15 210,119 NNNN
+ GUARDXSC       101          4244 29Jan99 12:19 210,119 NNNN
+ GVC            101         36572 14Sep98 21:52 210,119 NNNN
+ GVH            101          4996  6Mar98 15:58 210,119 NNNN
+ HANDYH         101         11654  6Mar98 15:58 210,119 NNNN
+ HVC            101         27770  6Mar98 15:58 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 6
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ HVH            101          4302  6Mar98 15:58 210,119 NNNN
+ INDEX          101          1028 29Jan99 12:19 210,119 NNNN
+ INTERNH        101          1108  6Mar98 15:58 210,119 NNNN
+ INTERSYM       101          2178  6Mar98 15:58 210,119 NNNN
+ KEYWORDH       101          6960  6Mar98 15:58 210,119 NNNN
+ MALLOCC        101         26322 31Dec98 10:39 210,119 NNNN
+ MD5XSC         101         20058 13Nov98 12:26 210,119 NNNN
+ MGC            101         37406 31Dec98 10:39 210,119 NNNN
+ MGH            101          1246  6Mar98 15:58 210,119 NNNN
+ MINIMOPL       101          3896  6Mar98 15:58 210,119 NNNN
+ MINIPERC       101          1496 13Nov98 12:32 210,119 NNNN
+ NOSTDIOH       101           752  6Mar98 15:58 210,119 NNNN
+ OPC            101        119940 14Sep98 21:52 210,119 NNNN
+ OPCODEH        101         58484  6Mar98 15:58 210,119 NNNN
+ OPCODEPL       101         18220  6Mar98 15:58 210,119 NNNN
+ OPH            101          8796  6Mar98 15:58 210,119 NNNN
+ PATCHLEH       101          1696  6Mar98 15:58 210,119 NNNN
+ PERLC          101         72330 14Sep98 21:52 210,119 NNNN
+ PERLEXSH       101          2780  6Mar98 15:58 210,119 NNNN
+ PERLH          101         68308 31Dec98 10:39 210,119 NNNN
+ PERLIOC        101         16812 29Jan99 12:19 210,119 NNNN
+ PERLIOH        101          5792 14Sep98 21:53 210,119 NNNN
+ PERLSDIH       101         10358  6Mar98 15:58 210,119 NNNN
+ PERLSFIH       101          2386  6Mar98 15:58 210,119 NNNN
+ PERLYC         101         87224  6Mar98 15:58 210,119 NNNN
+ PERLYDIF       101         10976  6Mar98 15:58 210,119 NNNN
+ PERLYFIX       101          6130  6Mar98 15:58 210,119 NNNN
+ PERLYH         101          1600  6Mar98 15:58 210,119 NNNN
+ PERLYY         101         17486  6Mar98 15:58 210,119 NNNN
+ PPC            101         88634  6Mar98 15:58 210,119 NNNN
+ PPCTLC         101         65184 14Sep98 21:53 210,119 NNNN
+ PPH            101          8136  6Mar98 15:58 210,119 NNNN
+ PPHOTC         101         51882  6Mar98 15:58 210,119 NNNN
+ PPSYSC         101         98416 29Jan99 12:26 210,119 NNNN
+ PROTOH         101         23840  6Mar98 15:58 210,119 NNNN
+ REGCOMPC       101         42982  6Mar98 15:58 210,119 NNNN
+ REGCOMPH       101         10480  6Mar98 15:58 210,119 NNNN
+ REGEXECC       101         32918  6Mar98 15:58 210,119 NNNN
+ REGEXPH        101          1328  6Mar98 15:58 210,119 NNNN
+ RUNC           101          2728 14Sep98 21:53 210,119 NNNN
+ SCOPEC         101         17344  6Mar98 15:59 210,119 NNNN
+ SCOPEH         101          5396  6Mar98 15:59 210,119 NNNN
+ SVC            101        116088  6Mar98 15:59 210,119 NNNN
+ SVH            101         22282  6Mar98 15:59 210,119 NNNN
+ TAINTC         101          2904  6Mar98 15:59 210,119 NNNN
+ TANDEMH        101           130  6Mar98 15:59 210,119 NNNN
+ TOKEC          101        133728  6Mar98 15:59 210,119 NNNN
+ UNIVERSC       101          4774  6Mar98 15:59 210,119 NNNN
+ UTILC          101         55346 14Sep98 21:53 210,119 NNNN
+ UTILH          101           306  6Mar98 15:59 210,119 NNNN
+ WRITEMSH       101          3246  6Mar98 15:59 210,119 NNNN
+ XSUBH          101          2304  6Mar98 15:59 210,119 NNNN
+
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 7
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+
+$CUST62.PERLT01
+ CONDT          101           556  6Mar98 15:59 210,119 NNNN
+ IFT            101           390  6Mar98 15:59 210,119 NNNN
+ INDEX          101           184  6Mar98 15:59 210,119 NNNN
+ LEX1T          101          2390  6Mar98 15:59 210,119 NNNN
+ LEXT           101          2252  6Mar98 15:59 210,119 NNNN
+ PATT           101           388  6Mar98 15:59 210,119 NNNN
+ README         101           100  6Mar98 15:59 210,119 NNNN
+ TERMT          101          1286  6Mar98 15:59 210,119 NNNN
+
+$CUST62.PERLT02
+ ELSIFT         101           682  6Mar98 15:59 210,119 NNNN
+ FORT           101          1228  6Mar98 15:59 210,119 NNNN
+ INDEX          101           192  6Mar98 15:59 210,119 NNNN
+ MODT           101          1246  6Mar98 15:59 210,119 NNNN
+ README         101            98  6Mar98 15:59 210,119 NNNN
+ SUBVALT        101          4260  6Mar98 15:59 210,119 NNNN
+ SWITCHT        101          1900  6Mar98 15:59 210,119 NNNN
+ WHILET         101          3012  6Mar98 15:59 210,119 NNNN
+
+$CUST62.PERLT03
+ CMDOPTT        101          3470  6Mar98 15:59 210,119 NNNN
+ COLONT         101          3946  6Mar98 15:59 210,119 NNNN
+ CPPAUX         101           946  6Mar98 15:59 210,119 NNNN
+ CPPT           101           566  6Mar98 15:59 210,119 NNNN
+ DECLT          101           776  6Mar98 15:59 210,119 NNNN
+ INDEX          101           266  6Mar98 15:59 210,119 NNNN
+ MULTILIT       101          1176  6Mar98 15:59 210,119 NNNN
+ PACKAGET       101           914  6Mar98 15:59 210,119 NNNN
+ PROTOT         101          8412  6Mar98 15:59 210,119 NNNN
+ README         101           100  6Mar98 15:59 210,119 NNNN
+ REDEFT         101          2270  6Mar98 15:59 210,119 NNNN
+ SCRIPTT        101          1022  6Mar98 15:59 210,119 NNNN
+ TERMT          101          1528  6Mar98 15:59 210,119 NNNN
+ USET           101          1984  6Mar98 15:59 210,119 NNNN
+
+$CUST62.PERLT04
+ ARGVT          101          1514  6Mar98 15:59 210,119 NNNN
+ DUPT           101           956  6Mar98 15:59 210,119 NNNN
+ FST            101          4908  6Mar98 15:59 210,119 NNNN
+ INDEX          101           210  6Mar98 15:59 210,119 NNNN
+ INPLACET       101           852  6Mar98 15:59 210,119 NNNN
+ PIPET          101          2568  6Mar98 15:59 210,119 NNNN
+ PRINTT         101           678  6Mar98 15:59 210,119 NNNN
+ README         101            94  6Mar98 15:59 210,119 NNNN
+ READT          101           450  6Mar98 15:59 210,119 NNNN
+ TELLT          101          1464  6Mar98 15:59 210,119 NNNN
+
+$CUST62.PERLT05
+ ABBREVT        101          1280  6Mar98 15:59 210,119 NNNN
+ ANYDBMT        101          3302  6Mar98 15:59 210,119 NNNN
+ AUTOLOAT       101          2526  6Mar98 15:59 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 8
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ BASENAMT       101          4948  6Mar98 15:59 210,119 NNNN
+ BIGINTPT       101          6832  6Mar98 15:59 210,119 NNNN
+ BIGINTT        101          5978  6Mar98 15:59 210,119 NNNN
+ CHECKTRT       101           384  6Mar98 15:59 210,119 NNNN
+ COMPLEXT       101         15446  6Mar98 15:59 210,119 NNNN
+ DBBTREET       101         13172  6Mar98 15:59 210,119 NNNN
+ DBHASHT        101          7906  6Mar98 15:59 210,119 NNNN
+ DBRECNOT       101          7316  6Mar98 15:59 210,119 NNNN
+ DIRHANDT       101           950  6Mar98 15:59 210,119 NNNN
+ ENGLISHT       101          1112  6Mar98 15:59 210,119 NNNN
+ ENVT           101           342  6Mar98 15:59 210,119 NNNN
+ FILECACT       101           536  6Mar98 15:59 210,119 NNNN
+ FILECOPT       101          2800  6Mar98 15:59 210,119 NNNN
+ FILEFINT       101           320  6Mar98 15:59 210,119 NNNN
+ FILEHANT       101          1878  6Mar98 15:59 210,119 NNNN
+ FILEPATT       101           650  6Mar98 15:59 210,119 NNNN
+ FINDBINT       101           294  6Mar98 15:59 210,119 NNNN
+ GDBMT          101          3302  6Mar98 15:59 210,119 NNNN
+ GETOPTT        101          1662  6Mar98 15:59 210,119 NNNN
+ HOSTNAMT       101           372  6Mar98 15:59 210,119 NNNN
+ INDEX          101           782  6Mar98 15:59 210,119 NNNN
+ IODUPT         101          1434  6Mar98 15:59 210,119 NNNN
+ IOPIPET        101          2054  6Mar98 15:59 210,119 NNNN
+ IOSELT         101          3026  6Mar98 15:59 210,119 NNNN
+ IOSOCKT        101          1374  6Mar98 15:59 210,119 NNNN
+ IOTAINTT       101          1334  6Mar98 15:59 210,119 NNNN
+ IOTELLT        101          1812  6Mar98 15:59 210,119 NNNN
+ IOUDPT         101           982  6Mar98 15:59 210,119 NNNN
+ IOXST          101           872  6Mar98 15:59 210,119 NNNN
+ NDBMT          101          3414  6Mar98 15:59 210,119 NNNN
+ ODBMT          101          3414  6Mar98 15:59 210,119 NNNN
+ OPCODET        101          3948  6Mar98 15:59 210,119 NNNN
+ OPEN2T         101          1084  6Mar98 15:59 210,119 NNNN
+ OPEN3T         101          3262  6Mar98 15:59 210,119 NNNN
+ OPST           101           708  6Mar98 15:59 210,119 NNNN
+ PARSEWOT       101           768  6Mar98 15:59 210,119 NNNN
+ POSIXT         101          2682  6Mar98 15:59 210,119 NNNN
+ README         101            96  6Mar98 15:59 210,119 NNNN
+ SAFE1T         101          2210  6Mar98 15:59 210,119 NNNN
+ SAFE2T         101          4514  6Mar98 15:59 210,119 NNNN
+ SDBMT          101          3414  6Mar98 15:59 210,119 NNNN
+ SEARCHDT       101          1274  6Mar98 15:59 210,119 NNNN
+ SELECTST       101           554  6Mar98 15:59 210,119 NNNN
+ SOCKETT        101          2208  6Mar98 15:59 210,119 NNNN
+ SOUNDEXT       101          3022  6Mar98 15:59 210,119 NNNN
+ SYMBOLT        101          1160  6Mar98 15:59 210,119 NNNN
+ TEXTTABT       101           578  6Mar98 15:59 210,119 NNNN
+ TEXTWRAT       101          1166  6Mar98 15:59 210,119 NNNN
+ TIMELOCT       101          2338  6Mar98 15:59 210,119 NNNN
+ TRIGT          101          1372  6Mar98 15:59 210,119 NNNN
+
+$CUST62.PERLT06
+ APPENDT        101           652  6Mar98 15:59 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 9
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ ARITHT         101           302  6Mar98 15:59 210,119 NNNN
+ ARRAYT         101          4574  6Mar98 15:59 210,119 NNNN
+ ASSIGNWT       101          1950  6Mar98 15:59 210,119 NNNN
+ AUTOT          101          2990  6Mar98 15:59 210,119 NNNN
+ BOPT           101          2034  6Mar98 15:59 210,119 NNNN
+ CHOPT          101          2452  6Mar98 15:59 210,119 NNNN
+ CLOSURET       101         12960  6Mar98 15:59 210,119 NNNN
+ CMPT           101           920  6Mar98 15:59 210,119 NNNN
+ CONDT          101           394  6Mar98 15:59 210,119 NNNN
+ DELETET        101          1942  6Mar98 15:59 210,119 NNNN
+ DOT            101          1254  6Mar98 16:00 210,119 NNNN
+ EACHT          101          3222  6Mar98 16:00 210,119 NNNN
+ EVALT          101          1586  6Mar98 16:00 210,119 NNNN
+ EXECT          101           940  6Mar98 16:00 210,119 NNNN
+ EXPT           101           858  6Mar98 16:00 210,119 NNNN
+ FLIPT          101           752  6Mar98 16:00 210,119 NNNN
+ FORKT          101           588  6Mar98 16:00 210,119 NNNN
+ GLOBT          101          1060  6Mar98 16:00 210,119 NNNN
+ GOTOT          101          1926  6Mar98 16:00 210,119 NNNN
+ GROUPST        101          1094  6Mar98 16:00 210,119 NNNN
+ GVT            101          1530  6Mar98 16:00 210,119 NNNN
+ INCT           101          1114  6Mar98 16:00 210,119 NNNN
+ INDEX          101           888  6Mar98 16:00 210,119 NNNN
+ INDEXT         101          1902  6Mar98 16:00 210,119 NNNN
+ INTT           101           562  6Mar98 16:00 210,119 NNNN
+ JOINT          101           472  6Mar98 16:00 210,119 NNNN
+ LISTT          101          2936  6Mar98 16:00 210,119 NNNN
+ LOCALT         101          1024  6Mar98 16:00 210,119 NNNN
+ MAGICT         101          3654  6Mar98 16:00 210,119 NNNN
+ METHODT        101          3260  6Mar98 16:00 210,119 NNNN
+ MISCT          101          8428  6Mar98 16:00 210,119 NNNN
+ MKDIRT         101           664  6Mar98 16:00 210,119 NNNN
+ MYT            101          1742  6Mar98 16:00 210,119 NNNN
+ OCTT           101           720  6Mar98 16:00 210,119 NNNN
+ ORDT           101           486  6Mar98 16:00 210,119 NNNN
+ PACKT          101          3046  6Mar98 16:00 210,119 NNNN
+ PATT           101          6738  6Mar98 16:00 210,119 NNNN
+ PUSHT          101          1512  6Mar98 16:00 210,119 NNNN
+ QUOTEMET       101          1412  6Mar98 16:00 210,119 NNNN
+ RANDT          101         12050  6Mar98 16:00 210,119 NNNN
+ RANGET         101          1084  6Mar98 16:00 210,119 NNNN
+ READDIRT       101           872  6Mar98 16:00 210,119 NNNN
+ README         101            94  6Mar98 16:00 210,119 NNNN
+ READT          101           632  6Mar98 16:00 210,119 NNNN
+ RECURSET       101          2430  6Mar98 16:00 210,119 NNNN
+ REFT           101          5632  6Mar98 16:00 210,119 NNNN
+ REGEXPT        101          1192  6Mar98 16:00 210,119 NNNN
+ REPEATT        101          1770  6Mar98 16:00 210,119 NNNN
+ RETESTS        101          9036  6Mar98 16:00 210,119 NNNN
+ RUNLEVET       101          6718  6Mar98 16:00 210,119 NNNN
+ SLEEPT         101           286  6Mar98 16:00 210,119 NNNN
+ SORTT          101          3074  6Mar98 16:00 210,119 NNNN
+ SPLITT         101          2742  6Mar98 16:00 210,119 NNNN
+
+
+
+
+Backup time: 11Dec99 11:58                                            Page: 10
+
+Tape: 1        Code           EOF    Last modif   Owner RWEP   Type   Rec Block
+ SPRINTFT       101           354  6Mar98 16:00 210,119 NNNN
+ STATT          101          7808  6Mar98 16:00 210,119 NNNN
+ STUDYT         101          2360  6Mar98 16:00 210,119 NNNN
+ SUBSTRT        101          2448  6Mar98 16:00 210,119 NNNN
+ SUBSTT         101          7164  6Mar98 16:00 210,119 NNNN
+ SYSIOT         101          5558  6Mar98 16:00 210,119 NNNN
+ TAINTT         101         15254  6Mar98 16:00 210,119 NNNN
+ TIET           101          3802  6Mar98 16:00 210,119 NNNN
+ TIMET          101          1412  6Mar98 16:00 210,119 NNNN
+ UNDEFT         101          1706  6Mar98 16:00 210,119 NNNN
+ UNIVERST       101          1188  6Mar98 16:00 210,119 NNNN
+ UNSHIFTT       101           454  6Mar98 16:00 210,119 NNNN
+ VECT           101          1042  6Mar98 16:00 210,119 NNNN
+ WRITET         101          3662  6Mar98 16:00 210,119 NNNN
+
+$CUST62.PERLT07
+ CONSTANT       101          4012  6Mar98 16:00 210,119 NNNN
+ INDEX          101           200  6Mar98 16:00 210,119 NNNN
+ LOCALET        101         11524  6Mar98 16:00 210,119 NNNN
+ OVERLOAT       101          9282  6Mar98 16:00 210,119 NNNN
+ README         101           100  6Mar98 16:00 210,119 NNNN
+ STRICTT        101          2526  6Mar98 16:00 210,119 NNNN
+ SUBST          101          3560  6Mar98 16:00 210,119 NNNN
+ WARNINGT       101          2636  6Mar98 16:00 210,119 NNNN
+
+Summary Information
+
+Files dumped = 444  Files not dumped = 0
+Total bytes:      23049514
+Compressed bytes: 7228432
